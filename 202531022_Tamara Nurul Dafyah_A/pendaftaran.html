@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan Praktikum Pendaftaran</title>
+</head>
+<body>
+
+    <!-- Menu Navigasi -->
+    <nav>
+        <a href="index.html">Beranda</a> | 
+        <a href="pendaftaran.html">Pendaftaran</a>
+    </nav>
+
+    <!-- Garis Pemisah Horizontal -->
+    <hr>
+
+    <!-- Judul -->
+    <h2>Form Pendaftaran Praktikan</h2>
+
+    <!-- Formulir -->
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>1</td>
+                <td>Nama Lengkap</td>
+                <td>: <input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Password</td>
+                <td>: <input type="password" name="pass"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>NIM</td>
+                <td>: <input type="number" name="nim"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Tanggal Lahir</td>
+                <td>: <input type="date" name="tgl"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Jenis Kelamin</td>
+                <td>
+                    : <input type="radio" name="jk" value="L"> Laki-Laki
+                    <input type="radio" name="jk" value="P"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Minat bidang</td>
+                <td>
+                    : <input type="checkbox" name="minat" value="web"> Web
+                    <input type="checkbox" name="minat" value="network"> Jaringan
+                    <input type="checkbox" name="minat" value="model"> Design/Modeling
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Program Studi</td>
+                <td>
+                    : <select name="prodi">
+                        <option value="IF">S1 Teknik Informatika</option>
+                        <option value="SI">S1 Sistem Informasi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Alasan Mendaftar</td>
+                <td>: <textarea name="alasan" rows="3" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td></td>
+                <td>
+                    : <input type="submit" value="Kirim">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
